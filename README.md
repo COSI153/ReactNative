@@ -23,3 +23,5 @@ So, I googled it and found a temporary solution.
 I have to type the following (npm start not working)
 expo r -c
 
+### TODO: I will clean up codes later (e.g. styles, etc). I spent too much time and am so tired.
+
