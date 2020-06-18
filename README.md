@@ -1,6 +1,6 @@
 # ReactNative
 
-## (6/17/2020 Jae)
+## (6/17/2020, Jae)
 tab added on welcome screen
 
 ### installation of dependencies
@@ -22,3 +22,5 @@ Error: Problem validating asset fields in app.json. See https://docs.expo.io/
 So, I googled it and found a temporary solution.
 I have to type the following (npm start not working)
 expo r -c
+
+### (6/18/2020, Jae) error fixed
