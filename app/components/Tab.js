@@ -1,9 +1,7 @@
+import * as React from "react";
 import { StyleSheet, Text, View, SafeAreaView } from "react-native";
 import WelcomeScreen from "../../app/screens/WelcomeScreen";
-
 import "react-native-gesture-handler";
-
-import * as React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
@@ -57,9 +55,17 @@ export default function TopTab() {
 }
 
 const styles = StyleSheet.create({
+  tabStack: {},
+  homeHeader: {},
+});
+
+{
+  /*
+const styles = StyleSheet.create({
   tabStack: {
-    activeTintColor: "#FFFFFF",
-    inactiveTintColor: "#F8F8F8",
+
+    activeTintColor: '#FFFFFF',
+    inactiveTintColor: '#F8F8F8',
     style: {
       backgroundColor: "#633689",
     },
@@ -70,10 +76,16 @@ const styles = StyleSheet.create({
       borderBottomColor: "#87B56A",
       borderBottomWidth: 2,
     },
+
   },
   homeHeader: {
-    headerStyle: { backgroundColor: "#633689" },
-    headerTintColor: "#fff",
-    headerTitleStyle: { fontWeight: "bold" },
+
+    headerStyle: { backgroundColor: '#633689' },
+    headerTintColor: '#fff',
+    headerTitleStyle: { fontWeight: 'bold' }
+
   },
-});
+
+})
+*/
+}
