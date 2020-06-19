@@ -58,34 +58,3 @@ const styles = StyleSheet.create({
   tabStack: {},
   homeHeader: {},
 });
-
-{
-  /*
-const styles = StyleSheet.create({
-  tabStack: {
-
-    activeTintColor: '#FFFFFF',
-    inactiveTintColor: '#F8F8F8',
-    style: {
-      backgroundColor: "#633689",
-    },
-    labelStyle: {
-      textAlign: "center",
-    },
-    indicatorStyle: {
-      borderBottomColor: "#87B56A",
-      borderBottomWidth: 2,
-    },
-
-  },
-  homeHeader: {
-
-    headerStyle: { backgroundColor: '#633689' },
-    headerTintColor: '#fff',
-    headerTitleStyle: { fontWeight: 'bold' }
-
-  },
-
-})
-*/
-}

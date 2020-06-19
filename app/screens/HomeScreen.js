@@ -2,7 +2,7 @@ import React from "react";
 import { Link, View, ImageBackground, StyleSheet, Text } from "react-native";
 import Button from "../components/Button";
 
-function WelcomeScreen(props) {
+function HomeScreen(props) {
   return (
     <ImageBackground
       style={styles.background}
@@ -32,4 +32,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default WelcomeScreen;
+export default HomeScreen;
