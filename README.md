@@ -12,15 +12,6 @@ npm install @react-navigation/material-top-tabs react-native-tab-view
 
 npm install @react-navigation/stack --save
 
-### Note: I had this annoying issue, but couldn't figure it out.
-ERROR
-17:15
-Error: Problem validating asset fields in app.json. See https://docs.expo.io/
- • Field: splash.image - cannot access file at './assets/splash.png'.
- • Field: icon - cannot access file at './assets/icon.png'.
-
-So, I googled it and found a temporary solution.
-I have to type the following (npm start not working)
-expo r -c
-
-### (6/18/2020, Jae) error fixed
+## (6/19/2020, Jae)
+Accordion (pull down menu)
+npm install --save accordion-collapse-react-native
