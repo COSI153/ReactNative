@@ -1,25 +1,23 @@
 import React from "react";
 import { Link, View, ImageBackground, StyleSheet, Text } from "react-native";
 import Button from "../components/Button";
+import ProductList from '../components/ProductList'
 
-function WelcomeScreen(props) {
+function HomeScreen(props) {
   return (
-    <ImageBackground
-      style={styles.background}
-      source={require("../assets/img/background1.jpg")}
-    >
-      <Text style={styles.text}>Buy What you need from farmer directly!</Text>
-      <View style={styles.buttonContainer}>
-        <Button title="Home" />
-      </View>
+    <ImageBackground style={styles.background} source={require("../assets/img/background1.jpg")}>
+      <Text> {'\n'} </Text>
+      <ProductList />
+      
     </ImageBackground>
   );
 }
 
 const styles = StyleSheet.create({
   background: {
-    flex: 1,
-    justifyContent: "space-around",
+    width: '100%',
+    height: '100%',
+    //justifyContent: "space-around",
     alignItems: "center",
   },
   buttonContainer: {
@@ -32,4 +30,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default WelcomeScreen;
+export default HomeScreen;
