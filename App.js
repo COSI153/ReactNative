@@ -7,5 +7,5 @@ import Screen from "./app/components/Screen";
 import SignUp from "./app/screens/SignUp";
 
 export default function App() {
-  return <SignUp />;
+  return <TopTab />;
 }
