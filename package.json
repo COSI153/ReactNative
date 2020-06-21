@@ -15,6 +15,7 @@
     "@react-navigation/stack": "^5.5.1",
     "accordion-collapse-react-native": "^0.3.1",
     "expo": "~37.0.3",
+    "formik": "^2.1.4",
     "react": "~16.9.0",
     "react-accessible-accordion": "^3.0.1",
     "react-dom": "~16.9.0",
